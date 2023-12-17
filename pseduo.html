@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      h1 {
+        color: #3498db;
+        text-align: center;
+      }
+
+      /* Pseudo-Elements */
+      div::first-line {
+        color: #e74c3c;
+        font-weight: bold;
+      }
+
+      div::first-letter {
+        font-size: 1.5em;
+        color: #27ae60;
+      }
+
+      div::before {
+        content: "Before ";
+        color: #f39c12;
+      }
+
+      div::after {
+        content: " After";
+        color: #3498db;
+      }
+
+      /* Custom marker for lists */
+      ul::marker {
+        content: "➔ ";
+        color: #e74c3c;
+      }
+
+      /* Selection pseudo-element */
+      p::selection {
+        background-color: #3498db;
+        color: #fff;
+      }
+    </style>
+
+    <title>Web Layout with Pseudo-Elements</title>
+  </head>
+  <body>
+    <h1>Web Layout with Pseudo-Elements</h1>
+
+    <div>
+      <p>
+        This is the first line of text. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+      </p>
+      <ul>
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Web Layout</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .title::first-letter {
+        font-size: 1.5em;
+        color: #ff6f61;
+        font-weight: bold;
+      }
+
+      .article {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        line-height: 1.6;
+      }
+
+      .article::first-line {
+        font-size: 1.2em;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .article::before {
+        content: "📝 ";
+        font-size: 1.2em;
+        margin-right: 5px;
+      }
+
+      .article::after {
+        content: "✨";
+        font-size: 1.2em;
+        margin-left: 5px;
+      }
+
+      .article::marker {
+        content: "➤ ";
+        color: #ff6f61;
+        font-weight: bold;
+      }
+
+      .article::selection {
+        background-color: #ff6f61;
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="title">Creative Web Layout</h1>
+    </div>
+
+    <div class="article">
+      <p>
+        Welcome to this creative web layout! In this article, we explore the use
+        of various pseudo-elements in CSS to enhance the visual appeal of our
+        webpage.
+      </p>
+      <p>
+        CSS pseudo-elements like <code>::first-line</code>,
+        <code>::first-letter</code>, <code>::before</code>,
+        <code>::after</code>, <code>::marker</code>, and
+        <code>::selection</code> provide us with the flexibility to style
+        specific parts of our content in unique ways.
+      </p>
+      <p>
+        Let's make our web pages more engaging and visually interesting by
+        leveraging the power of CSS pseudo-elements. Happy coding!
+      </p>
+    </div>
+  </body>
+</html>

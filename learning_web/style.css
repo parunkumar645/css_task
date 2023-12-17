@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: section;
+  margin-left: 20px;
+}
+
+li {
+  counter-increment: section;
+  margin-bottom: 10px;
+}
+
+li:before {
+  content: counters(section, ".") " ";
+  color: #3498db;
+  font-weight: bold;
+}

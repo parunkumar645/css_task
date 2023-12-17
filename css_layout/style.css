@@ -1,0 +1,90 @@
+.intermix-box {
+  float: left;
+  width: 82%;
+  height: 75px;
+  outline: 2px solid red;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.intermix-box3 {
+  float: left;
+  width: 60%;
+  height: 60vh;
+  outline: 2px solid fuchsia;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.inner-box {
+  float: left;
+  width: 98%;
+  height: 15%;
+  outline: 2px solid green;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.post {
+  float: left;
+  width: 98%;
+  height: 33%;
+  outline: 2px solid red;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.comment {
+  float: left;
+  width: 98%;
+  height: 23%;
+  outline: 2px solid brown;
+  text-align: center;
+  color: black;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.intermix-box2 {
+  float: left;
+  width: 20%;
+  height: 100px;
+  outline: 2px solid olive;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.intermix-box4 {
+  float: left;
+  width: 20%;
+  height: 130px;
+  outline: 2px solid brown;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.intermix-box5 {
+  float: left;
+  width: 20%;
+  height: 100px;
+  outline: 2px solid olive;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}
+.intermix-box6 {
+  float: left;
+  width: 82%;
+  height: 85px;
+  outline: 2px solid blue;
+  text-align: center;
+  color: black;
+  margin: 10px;
+}

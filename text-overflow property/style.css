@@ -1,0 +1,17 @@
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50%;
+  border: 1px solid #ccc;
+  margin: 20px;
+}
+
+.clip {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+  width: 50%;
+  border: 1px solid #ccc;
+  margin: 20px;
+}

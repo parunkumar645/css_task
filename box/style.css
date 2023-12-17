@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial", sans-serif;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.box1 {
+  width: 200px;
+  height: 200px;
+  background-color: #c257ab;
+}
+
+.box2 {
+  width: 200px;
+  height: 200px;
+  background-color: #c257ab;
+  border: 20px solid #fa0404;
+}
+
+.box3 {
+  width: 200px;
+  height: 200px;
+  background-color: #c257ab;
+  border: 20px solid #fa0404;
+  padding: 20px;
+}
+
+.box4 {
+  width: 200px;
+  height: 200px;
+  background-color: #c257ab;
+  border: 20px solid #fa0404;
+  padding: 20px;
+  margin: 20px;
+}

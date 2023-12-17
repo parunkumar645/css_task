@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #2f2e41;
+  background-color: #fffefe;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-image: url("bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-color: #fffefe;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  color: #454545;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #454545;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+main {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between; /* Adjusted to provide space between section and .img */
+  align-items: center; /* Center the section vertically */
+  min-height: 80vh; /* Ensure the main takes at least the full height of the viewport */
+}
+
+section {
+  width: 45%; /* Adjusted to cover 45% of the webpage */
+}
+/* Add this to your existing CSS file or create a new one */
+
+.img {
+  width: 55%; /* Make the image responsive, occupying 100% of its container's width */
+  max-width: 100%; /* Ensure the image doesn't exceed its natural size */
+  height: 40%; /* Maintain the aspect ratio of the image */
+  display: block; /* Remove any default inline spacing */
+  margin-bottom: 20px; /* Add margin to separate the image from other content (adjust as needed) */
+}
+
+h3 {
+  color: #454545;
+  font-size: 50px;
+}
+
+span {
+  font-weight: bolder;
+  color: #454545;
+  font-size: 50px;
+}
+
+p {
+  color: #454545;
+  line-height: 1.2;
+  font-size: 15px;
+}
+
+button {
+  background-color: #f95c19;
+  border-radius: 4px;
+  border: 2px solid #c5c5d2;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  padding: 12px 35px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}

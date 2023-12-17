@@ -1,0 +1,13 @@
+body {
+  background-image: url("flower.jpg");
+  background-size: cover;
+  background-position: 50% 30%; /* Horizontal and vertical position as percentages */
+  background-repeat: no-repeat;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}

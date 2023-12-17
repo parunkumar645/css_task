@@ -1,0 +1,17 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #0066cc;
+}
+
+p {
+  text-align: justify;
+}
+
+.right-align {
+  text-align: right;
+}

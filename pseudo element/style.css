@@ -1,0 +1,44 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: #3498db;
+  text-align: center;
+}
+
+a:link {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #8e44ad;
+}
+
+a:hover {
+  color: #e74c3c;
+  text-decoration: underline;
+}
+
+div:first-child {
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+div:nth-child(even) {
+  background-color: #d5f5e3;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+div:nth-child(odd) {
+  background-color: #f8d7da;
+  padding: 10px;
+  margin-bottom: 10px;
+}

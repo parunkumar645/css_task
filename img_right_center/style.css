@@ -1,0 +1,13 @@
+body {
+  background-image: url("flower.jpg");
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  padding: 20px;
+}
